@@ -1,13 +1,29 @@
 # SunRise_SunSet
 
-VB6 sunrise class project (`Sunrise.vbp` / `clsSunrise`): class-module sunrise/sunset helper; the `.CLS` body is redacted to `.example` in this repo. Open `Sunrise.vbp` in the VB6 IDE.
+VB6 sunrise/sunset class project (`Sunrise.vbp`): the `clsSunRiseSet` class module exposes Sunrise, Sunset, and SolarNoon, plus a built-in city list (CityCount, CityName, City) that sets longitude, latitude, and time zone. The class body is kept as `clsSunrise.CLS.example` in this repo. Open `Sunrise.vbp` in the VB6 IDE.
 
-**Source last updated:** 2026-08-27 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
-
-_Note: original OneDrive LastWriteTime values were wiped to 2026-08-27 by a zip transfer; date above uses best available evidence (headers/copyright where helpful)._
+**Source last updated:** 2002-08-04 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** Exe project hosting a class module
 
 ## Solution structure
 
 | Project | Language | Type | Purpose |
 |---------|----------|------|---------|
-| `Project1` (`Sunrise.vbp`) | VB6 | class / exe | clsSunrise sunrise/sunset helper |
+| `Project1` (`Sunrise.vbp`) | VB6 | Exe (class module) | clsSunRiseSet sunrise/sunset/solar-noon helper |
+
+## How to open
+
+Open the `.vbp` in Visual Basic 6.0 IDE:
+- `Sunrise.vbp`
+
+## Requirements
+
+- Visual Basic 6.0 IDE
+- Rename `clsSunrise.CLS.example` to `clsSunrise.CLS` before opening
+
+## Attribution and provenance
+
+Working copy from my Historical Dev folder `VB/Old/SunRise_SunSet`.
+
+## License
+
+MIT © 2026 VaderConsulting for Dave Robinson's code. See `LICENSE`.
